@@ -1,9 +1,1 @@
-/// <reference path="./types/index.d.ts" />
-
-interface IAppOption {
-  globalData: {
-    userInfo?: WechatMiniprogram.UserInfo,
-    statusBarHeight: number
-  }
-  userInfoReadyCallback?: WechatMiniprogram.GetUserInfoSuccessCallback,
-}
+/// <reference path="./wx/index.d.ts" />
